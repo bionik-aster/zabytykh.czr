@@ -23,7 +23,6 @@ div {
 .georg {
   font-family:Georgia;
 }
-img.divi {
-	float: left;
-	margin-right:10px;
+img {
+	margin-bottom:0px;
 }
