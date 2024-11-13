@@ -17,7 +17,12 @@ div {
 }
 .divi {
   color:#FCFFDD;
+	overflow:hidden;
 }
 .georg {
   font-family:Georgia;
+}
+img.divi {
+	float: left;
+	margin-right:10px;
 }
