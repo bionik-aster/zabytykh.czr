@@ -54,8 +54,8 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000); 
      
       // Display the result in the element with id="countdown" 
-      document.getElementById("countdown").innerHTML = days + "DAYS " + hours + "HOURS " 
-      + minutes + "MINUTES " + seconds + "SECONDS "; 
+      document.getElementById("countdown").innerHTML = days + " DAY(S) " + hours + " HOUR(S) " 
+      + minutes + " MINUTE(S) " + seconds + " SECOND(S) "; 
     
       if (distance < 0) { 
         clearInterval(x); 
